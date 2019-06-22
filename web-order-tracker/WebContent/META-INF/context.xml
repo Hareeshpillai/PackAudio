@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/web_order_tracker" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxTotal="20" maxIdle="30" maxWaitMillis="10000"
+               username="root" password="henry0702" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url='jdbc:mysql://localhost:3306/web_order_tracker?serverTimezone=UTC&amp;useSSL=FALSE&amp;allowPublicKeyRetrieval=TRUE&amp;useUnicode=TRUE&amp;characterEncoding=UTF-8'/>
+
+</Context>
